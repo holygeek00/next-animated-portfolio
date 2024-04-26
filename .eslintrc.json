@@ -5,6 +5,8 @@
   ],
   "rules": {
     "react/prop-types": "off",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    // 禁用单引号警告
+    "quotes": ["error", "double"]
   }
 }

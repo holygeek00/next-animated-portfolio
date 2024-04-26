@@ -24,7 +24,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Are you struggling to create captivating advertisements that truly resonate with your target audience? Don't let advertising woes hold your business back! Outsource your ad creation and management to our team of seasoned professionals and unleash the power of expert marketing strategies.
+            Are you struggling to create captivating advertisements that truly resonate with your target audience? Don&apos;t let advertising woes hold your business back! Outsource your ad creation and management to our team of seasoned professionals and unleash the power of expert marketing strategies.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">

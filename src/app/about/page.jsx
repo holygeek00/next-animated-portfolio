@@ -1,7 +1,6 @@
 "use client";
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
-import Image from "next/image";
 import { useRef } from "react";
 
 const AboutPage = () => {
@@ -46,12 +45,12 @@ const AboutPage = () => {
               <p  className="pt-5 pb-5 font-bold">Why choose Our Company for your IT software outsourcing needs?</p>
 
               <li>Expertise: Our team consists of highly skilled software engineers with expertise in a wide range of technologies and platforms. From frontend development to backend systems, we have the knowledge and experience to deliver high-quality solutions.</li>
-              <li>Flexibility: We understand that business needs can change rapidly. That's why we offer flexible engagement models to suit your requirements, whether you need a dedicated team, project-based collaboration, or ongoing support and maintenance.</li>
+              <li>Flexibility: We understand that business needs can change rapidly. That&apos;s why we offer flexible engagement models to suit your requirements, whether you need a dedicated team, project-based collaboration, or ongoing support and maintenance.</li>
               <li>Quality Assurance: Quality is at the heart of everything we do. Our rigorous quality assurance processes ensure that every project we deliver meets the highest standards of performance, reliability, and security.</li>
               <li>Cost-Effectiveness: Outsourcing your software development needs to [Company Name] can help you save on overhead costs while ensuring top-notch results. Our competitive pricing models are designed to deliver maximum value for your investment.</li>
               <li>Timely Delivery: We understand the importance of deadlines. With our efficient project management practices and streamlined development processes, we ensure timely delivery of projects without compromising on quality.</li>
               <li>Client-Centric Approach: Your satisfaction is our priority. We believe in building long-term partnerships with our clients based on trust, transparency, and open communication. We work closely with you every step of the way to ensure that your expectations are not just met but exceeded.</li>
-              <li>Whether you're a startup looking to build your first MVP, a mid-sized company seeking to scale your operations, or a large enterprise in need of innovative software solutions, We have the expertise and resources to help you succeed.</li>
+              <li>Whether you&apos;re a startup looking to build your first MVP, a mid-sized company seeking to scale your operations, or a large enterprise in need of innovative software solutions, We have the expertise and resources to help you succeed.</li>
 
               <p className="pt-5 text-lg text-gray-600">Unlock the full potential of your business with our expert IT software outsourcing services. Contact us today to learn more about how we can empower your business for success in the digital age.</p>
             </p>
@@ -225,7 +224,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm">
-                    Tailored applications to meet your unique business needs, whether it's web, mobile, or enterprise software.
+                    Tailored applications to meet your unique business needs, whether it&apos;s web, mobile, or enterprise software.
                   </div>
                   {/*/!* JOB DATE *!/*/}
                   {/*<div className="p-3 text-red-400 text-sm font-semibold">*/}
