@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
-  const text = "Say Hello";
+  const text = "Looking forward to working with you";
 
   const form = useRef();
 
@@ -42,7 +42,7 @@ const ContactPage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-5xl">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -58,7 +58,6 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            😊
           </div>
         </div>
         {/* FORM CONTAINER */}
@@ -67,19 +66,20 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Dear Lama Dev,</span>
+          <span>Dear Customer</span>
+          <span>Please Input Your Need:</span>
           <textarea
             rows={6}
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+            className="bg-transparent border-b-2 border-b-black outline rounded resize-none p-2"
             name="user_message"
           />
-          <span>My mail address is:</span>
+          <span>Please Input Your Eamil</span>
           <input
-            name="user_email"
+            name="email"
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
+            required={true}
           />
-          <span>Regards</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
             Send
           </button>
