@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "OutSource Tech",
-  description: "The best animated work page",
+  description: "The best OutSource Working",
 };
 
 export default function RootLayout({ children }) {
