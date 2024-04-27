@@ -49,7 +49,7 @@ const Homepage = () => {
           </h1>
           <h2 className="text-3xl">Innovative Coding, Endless Possibilities</h2>
           <p className="md:text-xl text-start">
-            We blend cutting-edge technology with deep industry expertise to craft stunning software solutions. From concept to execution, we're dedicated to delivering genuine technological innovation.</p>
+            We blend cutting-edge technology with deep industry expertise to craft stunning software solutions. From concept to execution, we&apos;re dedicated to delivering genuine technological innovation.</p>
 
             <h2 className="text-3xl">Custom Development, Tailored Solutions</h2>
           <p className="md:text-xl text-start">
