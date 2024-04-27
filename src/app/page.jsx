@@ -14,7 +14,7 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row lg:justify-center sm:px-8 md:px-2 lg:px-0 xl:px-10">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative mr-10">
-          <img src="/back.jpg" alt="" fill className="w-[80rem] h-[50rem] absolute top-1/2 -translate-y-1/2 left-0 rounded-2xl shadow-2xl" />
+          <img src="/one.jpg" alt="" fill className="w-[80rem] h-[50rem] absolute top-1/2 -translate-y-1/2 left-0 rounded-2xl shadow-2xl" />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
